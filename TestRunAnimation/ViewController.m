@@ -10,6 +10,7 @@
 #import "RunningViewController.h"
 #import "TransitioningFromHomeToRunning.h"
 #import "TransitionFromRunningToHome.h"
+#import "HomePageAnimationUtil.h"
 
 @interface ViewController ()
 
@@ -24,15 +25,18 @@
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    
-    
-    [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRed:74.0 / 255.0 green:74.0 / 255.0 blue:74.0 / 255.0 alpha:1.0]];
+    [self.navigationController setNavigationBarHidden:YES];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 }
 
 -(void)viewDidDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
-    
-    [self.navigationController.navigationBar setBarTintColor:[UIColor whiteColor]];
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [HomePageAnimationUtil homeStartViewMaskAnimation:self.bottomBGView withBeginTime:0];
+    [HomePageAnimationUtil homeStartBtnMaskAnimation:self.startBtn withBeginTime:1];
 }
 
 
