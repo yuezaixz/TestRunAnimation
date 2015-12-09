@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A65B73D11C17CF0900C72EF1 /* GredientLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A65B73D01C17CF0900C72EF1 /* GredientLayerView.m */; };
 		A67111C61C11D30B005F8225 /* HomePageAnimationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A67111C51C11D30B005F8225 /* HomePageAnimationUtil.m */; };
 		A6B919371C1095A7001AECB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B919361C1095A7001AECB3 /* main.m */; };
 		A6B9193A1C1095A7001AECB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B919391C1095A7001AECB3 /* AppDelegate.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A65B73CF1C17CF0900C72EF1 /* GredientLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GredientLayerView.h; sourceTree = "<group>"; };
+		A65B73D01C17CF0900C72EF1 /* GredientLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GredientLayerView.m; sourceTree = "<group>"; };
 		A67111C41C11D30B005F8225 /* HomePageAnimationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageAnimationUtil.h; sourceTree = "<group>"; };
 		A67111C51C11D30B005F8225 /* HomePageAnimationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageAnimationUtil.m; sourceTree = "<group>"; };
 		A6B919321C1095A7001AECB3 /* TestRunAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRunAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +95,8 @@
 				A6B919431C1095A7001AECB3 /* LaunchScreen.storyboard */,
 				A6B919461C1095A7001AECB3 /* Info.plist */,
 				A6B919351C1095A7001AECB3 /* Supporting Files */,
+				A65B73CF1C17CF0900C72EF1 /* GredientLayerView.h */,
+				A65B73D01C17CF0900C72EF1 /* GredientLayerView.m */,
 			);
 			path = TestRunAnimation;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65B73D11C17CF0900C72EF1 /* GredientLayerView.m in Sources */,
 				A6B9193D1C1095A7001AECB3 /* ViewController.m in Sources */,
 				A6B9193A1C1095A7001AECB3 /* AppDelegate.m in Sources */,
 				A6B919521C109A6C001AECB3 /* RunningViewController.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "RunningViewController.h"
+#import "GredientLayerView.h"
 
 @interface RunningViewController ()
 
@@ -23,6 +24,7 @@
     self.animationImageview.frame = CGRectMake(0, 0, 304, 231);
     self.animationImageview.center = self.view.center;
     [self.view addSubview:_animationImageview];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -105,6 +107,10 @@
         [shapelayer addAnimation:animation forKey:nil];
         currentIndex ++;
     } else if (currentIndex == 2 ) {
+        GredientLayerView *gredientLayerView=[[GredientLayerView alloc]initWithFrame:CGRectMake(30, 100, 200, 200)];
+        [self.view addSubview:gredientLayerView];
+        currentIndex = 3;
+    } else if (currentIndex == 3 ) {
         [self dismissViewControllerAnimated:YES completion:nil];
         currentIndex = 0;
     }
