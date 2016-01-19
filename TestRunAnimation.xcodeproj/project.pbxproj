@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A603EA821C4D20D700DBB3D8 /* TextPathAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A603EA801C4D20D700DBB3D8 /* TextPathAnimationViewController.m */; };
+		A603EA831C4D20D700DBB3D8 /* TextPathAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A603EA811C4D20D700DBB3D8 /* TextPathAnimationViewController.xib */; };
+		A603EA861C4D20F100DBB3D8 /* LetterPathAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A603EA851C4D20F100DBB3D8 /* LetterPathAnimation.m */; };
 		A65B73D11C17CF0900C72EF1 /* GredientLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A65B73D01C17CF0900C72EF1 /* GredientLayerView.m */; };
 		A67111C61C11D30B005F8225 /* HomePageAnimationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A67111C51C11D30B005F8225 /* HomePageAnimationUtil.m */; };
 		A6B919371C1095A7001AECB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B919361C1095A7001AECB3 /* main.m */; };
@@ -21,6 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A603EA7F1C4D20D700DBB3D8 /* TextPathAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextPathAnimationViewController.h; sourceTree = "<group>"; };
+		A603EA801C4D20D700DBB3D8 /* TextPathAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextPathAnimationViewController.m; sourceTree = "<group>"; };
+		A603EA811C4D20D700DBB3D8 /* TextPathAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextPathAnimationViewController.xib; sourceTree = "<group>"; };
+		A603EA841C4D20F100DBB3D8 /* LetterPathAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetterPathAnimation.h; sourceTree = "<group>"; };
+		A603EA851C4D20F100DBB3D8 /* LetterPathAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetterPathAnimation.m; sourceTree = "<group>"; };
 		A65B73CF1C17CF0900C72EF1 /* GredientLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GredientLayerView.h; sourceTree = "<group>"; };
 		A65B73D01C17CF0900C72EF1 /* GredientLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GredientLayerView.m; sourceTree = "<group>"; };
 		A67111C41C11D30B005F8225 /* HomePageAnimationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageAnimationUtil.h; sourceTree = "<group>"; };
@@ -86,6 +94,11 @@
 				A6B9194C1C1099B7001AECB3 /* transition */,
 				A6B919381C1095A7001AECB3 /* AppDelegate.h */,
 				A6B919391C1095A7001AECB3 /* AppDelegate.m */,
+				A603EA841C4D20F100DBB3D8 /* LetterPathAnimation.h */,
+				A603EA851C4D20F100DBB3D8 /* LetterPathAnimation.m */,
+				A603EA7F1C4D20D700DBB3D8 /* TextPathAnimationViewController.h */,
+				A603EA801C4D20D700DBB3D8 /* TextPathAnimationViewController.m */,
+				A603EA811C4D20D700DBB3D8 /* TextPathAnimationViewController.xib */,
 				A6B9193B1C1095A7001AECB3 /* ViewController.h */,
 				A6B9193C1C1095A7001AECB3 /* ViewController.m */,
 				A6B919501C109A6C001AECB3 /* RunningViewController.h */,
@@ -179,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B919451C1095A7001AECB3 /* LaunchScreen.storyboard in Resources */,
+				A603EA831C4D20D700DBB3D8 /* TextPathAnimationViewController.xib in Resources */,
 				A6B919421C1095A7001AECB3 /* Assets.xcassets in Resources */,
 				A6B919401C1095A7001AECB3 /* Main.storyboard in Resources */,
 			);
@@ -192,12 +206,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A65B73D11C17CF0900C72EF1 /* GredientLayerView.m in Sources */,
+				A603EA821C4D20D700DBB3D8 /* TextPathAnimationViewController.m in Sources */,
 				A6B9193D1C1095A7001AECB3 /* ViewController.m in Sources */,
 				A6B9193A1C1095A7001AECB3 /* AppDelegate.m in Sources */,
 				A6B919521C109A6C001AECB3 /* RunningViewController.m in Sources */,
 				A6B9194F1C109A0D001AECB3 /* TransitioningFromHomeToRunning.m in Sources */,
 				A6B919551C109B93001AECB3 /* TransitionFromRunningToHome.m in Sources */,
 				A67111C61C11D30B005F8225 /* HomePageAnimationUtil.m in Sources */,
+				A603EA861C4D20F100DBB3D8 /* LetterPathAnimation.m in Sources */,
 				A6B919371C1095A7001AECB3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

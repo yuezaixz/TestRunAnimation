@@ -11,6 +11,7 @@
 #import "TransitioningFromHomeToRunning.h"
 #import "TransitionFromRunningToHome.h"
 #import "HomePageAnimationUtil.h"
+#import "TextPathAnimationViewController.h"
 
 @interface ViewController ()
 
@@ -54,11 +55,14 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)actionStartRunning:(id)sender{
-    UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    RunningViewController *sec = [story instantiateViewControllerWithIdentifier:@"runnigVC"];
-    sec.transitioningDelegate = self;
-    [self presentViewController:sec animated:YES completion:nil];
+//    UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//    RunningViewController *sec = [story instantiateViewControllerWithIdentifier:@"runnigVC"];
+//    sec.transitioningDelegate = self;
+//    [self presentViewController:sec animated:YES completion:nil];
+
     
+    TextPathAnimationViewController *sec = [[TextPathAnimationViewController alloc] initWithNibName:@"TextPathAnimationViewController" bundle:nil];
+    [self presentViewController:sec animated:YES completion:nil];
 }
 
 @end
